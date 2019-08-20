@@ -112,8 +112,11 @@ var students =  [
 
              ages += students[i].age;
 
-             age += students[i].age + ",";
-            
+             age += students[i].age;
+             
+             if(i != students.length - 1) {
+                 age += ",";
+             }
         }
         
         results = `Sum of all ages:: ${ages} and csv of ages::${age}`;
