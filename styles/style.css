@@ -1,0 +1,130 @@
+Body {
+    margin: 0px;
+    padding: 0px;
+}
+#divContainer {
+    background-color: ghostwhite;
+    border:1px solid lightgray ;
+    border-style: outset;
+    height: 70px;
+    
+}
+#divUpperContainer{
+    margin: 5px 70px 0px 70px;
+}
+#brand {
+    color: white;
+}
+dl {
+    color: green;
+}
+dt {
+    font-size: 24px;
+}
+ul {
+    float: right;
+    margin-top: -70px;
+    margin-right: 70px;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: dimgray;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px 20px;
+
+}
+li a:hover {
+    color: black;
+}
+.active {
+    background-color:darkgrey ;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px black;
+    padding: 5px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.content {
+    color: black;
+}
+#other {
+    color: darkgrey;
+    margin-left: 20px;
+}
+.row {
+    margin: 20px 100px 0px 100px;
+    text-align: justify;
+}
+.column {
+    float: left;
+    width: 29.5%;
+    padding: 20px;
+    color: darkslategray;
+    font-size: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+#divMiddleContainer{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+img {
+    border-bottom: 30px seagreen solid;
+}
+#divInnerLeft {
+    width: 40%;
+    height: 350px;
+    margin-top: 15p;
+    background-color: white;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+#divInnerRight {
+    float: right;
+    width: 50%;
+    height: 350px;
+    margin-top: -350px;
+    background-color: lightblue;
+}
+#divLeft {
+    width: 30%;
+    height: 250px;
+    margin: 40px 0px 10px 30px;
+    border-radius: 20px;
+    background-color: ghostwhite;
+}
+#divRight {
+    float: right;
+    width: 50%;
+    height: 250px;
+    margin-top: -260px;
+    margin-right: 20px;
+    background-color: honeydew;
+}
+#divLowerContainer {
+    width: 70%;
+    height: 70px;
+    padding: 50px;
+    background-color: crimson;
+    margin-top: 50px;
+
+}
