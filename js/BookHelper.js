@@ -19,7 +19,7 @@ class BookHelper {
     }
 
     printOutPublishedDates(library) {
-        for(var i = 0; i < library.length; i++) {
+        for(let i = 0; i < library.length; i++) {
             publishedDates += library[i].PublishDate;
 
             if(i != library.length - 1) {

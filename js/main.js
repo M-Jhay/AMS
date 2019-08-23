@@ -116,7 +116,7 @@ var library = [
 
 var bookHelper = new BookHelper();
 
-var authorName ="aa";
+let authorName ="aa";
 bookHelper.printOutBookNamesByAuthor(authorName, library);
 
 // Create a new function to return book instead of names like above
@@ -133,3 +133,20 @@ bookHelper.printOutPublishedDates(library);
 
 var isdnAndAuthor = "";
 bookHelper.printOutIsdnAndAuthor(library);
+
+let variableName = "I am  Variable";
+console.log(variableName);
+
+function Scope(library) {
+    for(let i = 0; i < library.length; i++) {
+        publishedDates += library[i].PublishDate;
+
+        if(i != library.length - 1) {
+            publishedDates += ", ";
+        }
+    }
+}
+
+var i = 0;
+
+var library = [];
